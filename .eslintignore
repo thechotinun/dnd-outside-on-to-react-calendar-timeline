@@ -1,0 +1,8 @@
+/lambda/
+/scripts
+/config
+.history
+node_modules
+dist
+public
+.cache
