@@ -1,4 +1,5 @@
 import React, { Component, Fragment, createRef } from 'react';
+import "react-calendar-timeline/lib/Timeline.css";
 import moment from 'moment';
 import Timeline, {
   TimelineMarkers,
@@ -238,11 +239,13 @@ export default class App extends Component {
         >
           <div
             style={{
-              padding: 10,
-              width: '100px',
-              height: '100px',
-              background: 'lightgray',
-              marginBottom: '10px',
+              width: "250px",
+              height: "50px",
+              background: "lightgray",
+              marginBottom: "10px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
             }}
           >
             Drag & drop me onto the timeline
