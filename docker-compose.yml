@@ -1,9 +1,9 @@
 services:
-  react-app:
+  react-dnd-app:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: react-dnd
+    container_name: react-dnd-app
     restart: always
     ports:
       - "3001:80"
